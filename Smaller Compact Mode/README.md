@@ -11,7 +11,7 @@ A maintained rebuild of **Smaller Compact Mode** for the [Zen Browser](https://z
 
 ## Installation
 
-1. Clone or download this repository.
+1. Clone or download this repository from <https://github.com/bubbabdfjhgldkfhg/zen-mods/blob/main/Smaller%20Compact%20Mode/>.
 2. In Zen Browser, open **Settings → Zen Mods**.
 3. Choose **Import mod** and select the `Smaller Compact Mode` directory.
 4. Enable the mod and restart Zen if prompted.
