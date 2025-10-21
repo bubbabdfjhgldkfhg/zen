@@ -1,4 +1,5 @@
 {
+  "manifest_version": 1,
   "id": "smaller-compact-mode",
   "name": "Smaller Compact Mode",
   "description": "A modern rebuild of n7itro's Smaller Compact Mode for Zen Browser, tightening toolbar, tab, and menu spacing for a dense layout.",
@@ -17,18 +18,16 @@
   ],
   "homepage": "https://github.com/bubbabdfjhgldkfhg/zen-mods/blob/main/Smaller%20Compact%20Mode/",
   "license": "MIT",
-  "entrypoints": [
-    {
-      "type": "userChrome",
-      "files": [
+  "entrypoints": {
+    "userChrome": {
+      "styles": [
         "styles/compact-chrome.css"
       ]
     },
-    {
-      "type": "userContent",
-      "files": [
+    "userContent": {
+      "styles": [
         "styles/compact-content.css"
       ]
     }
-  ]
+  }
 }
