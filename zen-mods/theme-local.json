@@ -1,0 +1,14 @@
+{
+  "b9a8796a-211b-4b7b-ab05-c7424df441d6": {
+    "id": "b9a8796a-211b-4b7b-ab05-c7424df441d6",
+    "name": "Tab Preview on Hover",
+    "description": "Enhanced tab hover effects with large tooltips, highlighting, and visual feedback. Provides improved tab navigation experience.",
+    "author": "Your Name",
+    "version": "1.0.0",
+    "style": "file:///Users/nathanfrost/zen-mods/chrome.css",
+    "preferences": "file:///Users/nathanfrost/zen-mods/preferences.json",
+    "tags": ["tabs", "preview", "tooltip"],
+    "createdAt": "2025-10-21",
+    "updatedAt": "2025-10-21"
+  }
+}

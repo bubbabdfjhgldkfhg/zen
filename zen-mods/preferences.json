@@ -1,0 +1,67 @@
+[
+  {
+    "property": "mod.tab-preview.enable-large-tooltip",
+    "label": "Enable large tooltip on tab hover",
+    "type": "checkbox",
+    "defaultValue": true
+  },
+  {
+    "property": "mod.tab-preview.enable-highlight",
+    "label": "Highlight tabs on hover with shadow and lift effect",
+    "type": "checkbox",
+    "defaultValue": true
+  },
+  {
+    "property": "mod.tab-preview.enable-favicon-zoom",
+    "label": "Zoom favicon on tab hover",
+    "type": "checkbox",
+    "defaultValue": false
+  },
+  {
+    "property": "mod.tab-preview.show-full-title",
+    "label": "Show full tab title on hover (no truncation)",
+    "type": "checkbox",
+    "defaultValue": false
+  },
+  {
+    "property": "mod.tab-preview.style",
+    "label": "Tooltip style",
+    "type": "dropdown",
+    "options": [
+      {
+        "label": "Default",
+        "value": "default"
+      },
+      {
+        "label": "Minimal",
+        "value": "minimal"
+      },
+      {
+        "label": "Card",
+        "value": "card"
+      }
+    ],
+    "defaultValue": "default"
+  },
+  {
+    "property": "mod.tab-preview.delay",
+    "label": "Tooltip delay (ms, e.g., 300)",
+    "type": "string",
+    "placeholder": "300",
+    "defaultValue": "300ms"
+  },
+  {
+    "property": "mod.tab-preview.tooltip-size",
+    "label": "Tooltip font size (e.g., 14px)",
+    "type": "string",
+    "placeholder": "14px",
+    "defaultValue": "14px"
+  },
+  {
+    "property": "mod.tab-preview.favicon-scale",
+    "label": "Favicon zoom scale (e.g., 1.3)",
+    "type": "string",
+    "placeholder": "1.3",
+    "defaultValue": "1.3"
+  }
+]
