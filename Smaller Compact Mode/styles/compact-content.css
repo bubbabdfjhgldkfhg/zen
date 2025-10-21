@@ -1,0 +1,45 @@
+/* Smaller Compact Mode content tweaks */
+
+:root {
+  --zen-content-padding: 6px;
+}
+
+/* tighten proton context menus */
+:root {
+  --menu-padding: 4px !important;
+  --arrowpanel-menuitem-margin: 0 !important;
+}
+
+#context-navigation, #context-sep-navigation {
+  display: none !important;
+}
+
+/* library and bookmarks sidebar adjustments */
+.sidebar-placesTreechildren::-moz-tree-row {
+  padding-block: 2px !important;
+}
+
+.sidebar-placesTreechildren::-moz-tree-cell-text {
+  font-size: 12px !important;
+}
+
+/* preferences layout adjustments */
+#categories > richlistitem {
+  min-height: 32px !important;
+  padding-block: 2px !important;
+}
+
+#categories richlistitem > .category-name {
+  font-size: 12px !important;
+}
+
+/* download panel compact spacing */
+#downloadsListBox > richlistitem {
+  min-height: 42px !important;
+  padding-block: 4px !important;
+}
+
+/* Reader mode toolbar */
+#reader-toolbar {
+  padding-block: 4px !important;
+}
