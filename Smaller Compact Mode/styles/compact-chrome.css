@@ -1,0 +1,119 @@
+/* Smaller Compact Mode (rebuilt for Zen) - chrome UI adjustments */
+
+:root {
+  --tab-min-height: 26px !important;
+  --tab-max-height: 26px !important;
+  --tab-block-margin: 0 !important;
+  --tab-inline-margin: 4px !important;
+  --toolbarbutton-inner-padding: 2px !important;
+  --toolbarbutton-outer-padding: 0px !important;
+  --urlbar-min-height: 28px !important;
+  --urlbar-icon-padding: 4px !important;
+  --tab-border-radius: 6px !important;
+  --zen-toolbar-height: 32px !important;
+  --zen-toolbar-button-spacing: 2px !important;
+}
+
+/* reduce padding on navigation toolbar */
+#nav-bar, #toolbar-menubar, #TabsToolbar {
+  padding-block: 0 !important;
+  min-height: var(--zen-toolbar-height) !important;
+}
+
+/* tighten toolbar buttons */
+.toolbar-items .toolbarbutton-1,
+#nav-bar toolbarbutton,
+#TabsToolbar toolbarbutton {
+  margin: 0 2px !important;
+  padding: 0 !important;
+}
+
+/* compact tabs */
+#tabbrowser-tabs {
+  --tab-min-width: 110px !important;
+  --tab-overflow-pinned-tabs-width: 100px !important;
+}
+
+tab.tabbrowser-tab {
+  padding-inline: 8px !important;
+  font-size: 12px !important;
+}
+
+tab.tabbrowser-tab:not([pinned]) .tab-content {
+  padding-block: 2px !important;
+  padding-inline: 6px !important;
+}
+
+.tab-close-button {
+  margin-inline-start: 4px !important;
+  padding: 0 !important;
+}
+
+/* tighten vertical spacing for bookmarks toolbar */
+#PersonalToolbar {
+  min-height: 24px !important;
+  padding-block: 1px !important;
+}
+
+#PersonalToolbar toolbarbutton {
+  padding: 0 6px !important;
+  margin-inline: 2px !important;
+}
+
+/* compact urlbar */
+#urlbar, #urlbar-container, #urlbar-input-container {
+  min-height: var(--urlbar-min-height) !important;
+}
+
+#urlbar-input-container {
+  padding-block: 0 !important;
+  padding-inline: 6px !important;
+}
+
+#urlbar-background {
+  border-radius: 6px !important;
+}
+
+/* compact find bar */
+findbar {
+  padding-block: 0 !important;
+  min-height: 26px !important;
+}
+
+/* reduce panel and popup padding */
+.panel-arrowcontent {
+  padding: 8px !important;
+}
+
+menupopup > menuitem, menupopup > menu {
+  padding-block: 2px !important;
+  min-height: 24px !important;
+}
+
+/* sidebar tweaks */
+#sidebar-box {
+  --sidebar-border-radius: 8px !important;
+}
+
+#sidebar-header {
+  padding-block: 2px !important;
+  min-height: 24px !important;
+}
+
+/* disable animations that would exaggerate spacing */
+.tabbrowser-tab[fadein]:not([pinned]) {
+  transition-duration: 120ms !important;
+}
+
+/* ensure compatibility with Zen's vertical tabs */
+:root[zen-vertical-tabs=true] #tabbrowser-tabs {
+  --tab-min-height: 32px !important;
+}
+
+:root[zen-vertical-tabs=true] tab.tabbrowser-tab {
+  padding-block: 2px !important;
+}
+
+:root[zen-vertical-tabs=true] #TabsToolbar {
+  padding-block: 4px !important;
+}
