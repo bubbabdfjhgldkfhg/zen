@@ -4,7 +4,7 @@
 - SuperPins (just to uncheck "Shows the workspace-indicator between Essentials and Pins")
 
 **Keyboard Shortcuts**
-Toggle Sidebar's Width -> ⌃⌥S
+- Toggle Sidebar's Width -> ⌃⌥S
 
 **about:config**
 - browser.tabs.hoverPreview.enabled -> true
