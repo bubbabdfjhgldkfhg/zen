@@ -24,8 +24,7 @@
 /* URL Bar - Show results only when typing */
 #urlbar .urlbarView-body-inner {
   display: none !important;
-}
- 
+} 
 #urlbar[usertyping] .urlbarView-body-inner {
   display: block !important;
 }
