@@ -9,6 +9,9 @@
 **about:config**
 - browser.tabs.hoverPreview.enabled -> true
 - browser.urlbar.trimURLs -> false
+- browser.urlbar.suggest.history -> false
+- browser.urlbar.suggest.recentsearches -> false
+- browser.urlbar.suggest.searches -> false
 
 **userChrome.css**
 
